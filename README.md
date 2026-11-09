@@ -53,17 +53,6 @@ mvn clean javafx:run
 
 Alternatifnya, buka proyek di NetBeans lalu klik **Run**.
 
-## Skenario Pengujian
-
-1. Tambahkan minimal tiga produk, misalnya:
-   - Roti Tawar, Makanan, 15000
-   - Teh Botol, Minuman, 5000
-   - Keripik Singkong, Makanan, 12000
-2. Buka **Lihat Daftar**: ketiga produk muncul di tabel.
-3. Cari `teh`: hanya Teh Botol yang tampil.
-4. Pilih satu baris lalu klik **Lihat Detail**: data dan gambar sesuai produk yang dipilih.
-5. Coba nama kosong, harga `0`, harga `-5`, dan harga `abc`: semuanya ditolak dengan pesan kesalahan.
-
 ## Penulis
 
 - **Nama:** Wisam Anfaal Mahasin
